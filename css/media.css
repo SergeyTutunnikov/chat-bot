@@ -1,0 +1,66 @@
+@media(max-width: 768px){
+	#about-us{
+		padding: 60px;
+		background-size:40%;
+	}
+	.info{
+		padding-right: 20px;
+		width: 60%;
+	}
+	#contact img{
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	#contact{
+		padding: 60px;
+	}
+	#contact h2{
+		padding-right: 0px;
+		text-align: center;
+	}
+	form{
+		margin: 0px;
+		margin-top:30px;
+		width: 100%;
+	}
+
+
+}
+@media(max-width: 575px){
+	#about-us{
+		background-position: bottom;
+		background-repeat: repeat-x;
+		padding-bottom: 100px; 
+	}
+	.info{
+		width:100%; 
+	}
+	#team{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.section-title{
+		font-size:2rem;
+	}
+}
+@media(max-width: 425px){
+	#contact,#about-us{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	#tariff div{
+		margin:10px 0;
+	}
+	#tariff{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	#about-us h2{
+		text-align: center;
+	}
+	#about-us{
+		padding-top: 40px;
+	}
+}
+
